@@ -1,7 +1,7 @@
 # action.yml
-name: 'GitHub Action to push subdirectories to separate repositories.'
-description: 'GitHub Action to push subdirectories to separate repositories.'
-author: 'Daniel Kim <daniel@bitproject.org>'
+name: 'GitHub Action to Push a Subdirectory to Another Repo'
+description: 'Automatically push a single subdirectory to a separate repo'
+author: 'Axel <axel@fantasy-calendar.com>'
 runs:
   using: 'docker'
   image: 'Dockerfile'
