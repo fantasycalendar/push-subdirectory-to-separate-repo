@@ -24,8 +24,12 @@ git clone --depth 1 https://$API_TOKEN_GITHUB@github.com/$DESTINATION_REPOSITORY
 [ -d $FOLDER ] || exit 1;
 [ -d $CLONE_DIR ] || exit 2;
 
+find ./$CLONE_DIR | grep -v ".git" 
+
 find ./$CLONE_DIR | grep -v ".git" | xargs rm -rf
 # delete all files only in that folder if folder exists
+
+ls -al
 
 cp -r $BASE/$FOLDER/* ./$CLONE_DIR/
 echo "Copied files to $CLONE_DIR"
