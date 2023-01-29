@@ -22,6 +22,7 @@ echo "Cloning into dir: $CLONE_DIR"
 git clone --depth 1 https://$API_TOKEN_GITHUB@github.com/$DESTINATION_REPOSITORY.git $CLONE_DIR &> /dev/null
 
 [ -d $FOLDER ] || exit 1;
+[ -d $CLONE_DIR ] || exit 2;
 
 find ./$CLONE_DIR | grep -v ".git" | xargs rm -rf
 # delete all files only in that folder if folder exists
