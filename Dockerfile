@@ -1,11 +1,11 @@
 FROM node:12-slim
 
-LABEL repository="https://github.com/bitprj/push-subdir"
-LABEL homepage="https://github.com/bitprj/push-subdir"
-LABEL maintainer="Daniel Kim <daniel@bitproject.org>"
+LABEL repository="https://github.com/fantasycalendar/push-subdirectory-to-separate-repo"
+LABEL homepage="https://github.com/fantasycalendar/push-subdirectory-to-separate-repo"
+LABEL maintainer="Axel <axel@fantasy-calendar.com>"
 
-LABEL com.github.actions.name="GitHub Action to Push Subdirectories to Another Repo"
-LABEL com.github.actions.description="Automatically push subdirectories in a monorepo to their own repositories"
+LABEL com.github.actions.name="GitHub Action to Push a Subdirectory to Another Repo"
+LABEL com.github.actions.description="Automatically push a single subdirectory to a separate repo"
 LABEL com.github.actions.icon="package"
 LABEL com.github.actions.color="purple"
 
