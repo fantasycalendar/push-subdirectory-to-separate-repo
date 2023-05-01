@@ -1,4 +1,4 @@
-FROM node:12-slim
+FROM node:20-slim
 
 LABEL repository="https://github.com/fantasycalendar/push-subdirectory-to-separate-repo"
 LABEL homepage="https://github.com/fantasycalendar/push-subdirectory-to-separate-repo"
